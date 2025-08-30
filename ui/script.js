@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var musicSource = document.getElementById('music-source');
     musicSource.src = config.musicSrc;
     audio.load();
+    
+    // Set music volume from config
+    if (config.musicVolume !== undefined) {
+        audio.volume = config.musicVolume;
+    }
+    
     audio.play();
 
     // Display server tips

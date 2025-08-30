@@ -2,6 +2,7 @@ var config = {
     serverName: 'vee rp',
     youtubeVideoId: 'KWAHGy_eee4',
     musicSrc: 'music/music.mp3',
+    musicVolume: 0.5, 
     tips: [
         'Welcome to vee RP! Remember to follow the server rules.',
         'Tip: Use /help to view available commands.',
